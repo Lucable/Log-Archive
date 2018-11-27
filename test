@@ -1,23 +1,16 @@
 {
   "username": "Logger",
   "avatar_url": "https://4.imimg.com/data4/WN/KO/MY-3909841/wooden-logs-500x500.jpg",
+  {
   "embeds": [
     {
-      "author": {
-        "name": "Birdie♫",
-        "url": "https://www.reddit.com/r/hot/",
-        "icon_url": "https://i.imgur.com/R66g1Pe.jpg"
+      "title": "{{Title}}",
+      "description": "[Link]({{PostURL}})",
+      "image": {
+        "url": "{{ImageURL}}"
       },
-      "title": "Title",
-      "url": "https://google.com/",
-      "description": "Text message. You can use Markdown here. *Italic* **bold** __underline__ ~~strikeout~~ [hyperlink](https://google.com) `code`",
-      "color": 15258703,
-      "fields": [
-        {
-          "name": "Text",
-          "value": "More text",
-          "inline": true
-        },
+      "footer": {
+        "text": "Author: {{Author}}"
       }
     }
   ]
